@@ -1,0 +1,77 @@
+/** all devices and responsive browser windows **/
+@media screen and (max-width: 800px) {
+	body {
+		padding: 10px 15px;
+	}
+	#container {
+		width: 100%;
+	}
+	#container2 {
+		width: 100%;
+	}
+	#ss-form #aligned {
+		width: 100%;
+		float: none;
+		display: block;
+	}
+	#ss-form #aside {
+		width: 100%;
+		display: block;
+		float: none;
+	}
+	#ss-form .txtinput, #ss-form textarea {
+		width: 85%;
+	}
+	#prioritycase {
+		float: left;
+		display: block;
+	}
+	#grade {
+		float: left;
+		display: block;
+		margin-right: 83px;
+	}
+	#birthDcase {
+		float: left;
+		display: block;
+		margin-right: 55px;
+	}
+	
+}
+
+
+/* smaller screen dropoff *******/
+@media only screen and (max-width: 550px) {
+ 	#ss-form .txtinput, #ss-form textarea {
+		width: 72%;
+	}
+}
+
+/* iPhone Landscape ********/
+@media only screen and (max-width: 480px) {
+	body {
+		padding: 10px 0px;
+	}
+	select.selmenu {
+		width: 200px;
+	}
+}
+
+/* iPhone portrait *******/
+@media only screen and (max-width: 320px) {
+	body {
+		padding: 10px 0px;
+	}
+ 	#ss-form .txtinput, #ss-form textarea {
+		width: 65%;
+	}
+	#ss-form #aligned {
+		overflow: hidden;
+	}
+	select.selmenu {
+		width: 200px;
+	}
+	#grade {
+		margin-right: 30px;
+	}
+}
